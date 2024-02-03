@@ -1,0 +1,24 @@
+.style-eachTransaction {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: bold;
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #7e858e;
+  list-style-type: none;
+  align-items: center;
+}
+.style-each {
+  width: 30%;
+}
+.style-delete-button {
+  width: 10%;
+  background-color: transparent;
+  border: none;
+  padding: 0px;
+}
+.style-image {
+  width: 20px;
+  height: 20px;
+}

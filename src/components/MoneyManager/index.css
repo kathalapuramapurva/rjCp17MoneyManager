@@ -1,0 +1,140 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.person-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.style-name {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+}
+.style-welcome {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+}
+.style-span {
+  color: #0b69ff;
+}
+.details-container {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container {
+  border: 1px solid #7e858e;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.add-transaction-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+}
+.style-label {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.style-input {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid #7e858e;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.style-add-button {
+  border: none;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #ffffff;
+  background-color: #0b69ff;
+  align-self: flex-start;
+}
+.history-box {
+  border: 1px solid #7e858e;
+}
+
+.style-top {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: bold;
+  display: flex;
+  padding: 10px;
+}
+
+.style-each-item {
+  width: 30%;
+}
+.bottom-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .main-container {
+    padding: 40px;
+  }
+  .bottom-container {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .form-container {
+    width: 39%;
+  }
+  .his-container {
+    width: 59%;
+  }
+  .details-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .style-name {
+    text-align: left;
+  }
+  .style-welcome {
+    text-align: left;
+  }
+}
+.style-history-container {
+  padding: 0px;
+}
